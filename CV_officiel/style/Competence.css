@@ -1,0 +1,119 @@
+/**********************Compétences *****************************/
+
+#Competence .txt{
+	display: none;
+}
+
+#Competence h2{
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+#Competence table{
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 50px;
+	width: 85vw;
+
+}
+
+#Competence table td{
+	font-size: 20px;
+	/*padding-right: 2vw;*/
+	
+}
+
+#Competence img{
+	height: 10vw;
+	width:  10vw;
+	justify-self: center;
+}
+
+#Competence canvas{
+	height: 15vw;
+	width:  15vw;
+	justify-self: center;
+	
+}
+
+@media screen and (min-width: 850px) {
+	#Competence ul{
+		width : 40vw;
+		margin-top: 10%;
+		
+	}
+}
+
+#Competence a{
+	color: orange;
+	
+}
+
+#Flowchart{
+	background-color: white;
+}
+
+#Competence .bloc{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	text-align: center;
+	margin-top: 50px;
+}
+
+#Competence #mesCompetences{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	margin-right: 5vw;
+
+}
+@media screen and (max-width: 850px) {
+	#Competence #mesCompetences{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3,1fr);
+	margin-right: 5vw;
+
+	}
+
+	#Competence .languagePrograming{
+	}
+
+	#Competence .webDeveloppement{
+	}
+
+	#Competence .algorithm{
+
+	}
+	
+	#Competence .packOffice{
+	}
+	
+	#Competence .solidworks{
+		grid-column: 1 / 3;
+		grid-row : 3/3;
+	}
+
+	#Competence img{
+	height: 25vw;
+	width:  25vw;
+	min-height: 175px;
+	min-width: 175px;
+	justify-self: center;
+	}
+
+	#Competence canvas{
+	height: 25vw;
+	width:  25vw;
+	min-height: 175px;
+	min-width: 175px;
+	justify-self: center;
+	    margin-top: 15px;
+	
+	}
+
+	#Competence ul{
+	margin-top: 10%;
+
+	
+	}
+}

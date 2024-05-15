@@ -1,0 +1,240 @@
+/***************************Loisir ***********************************/
+
+#Interets{
+	min-height: 700px;
+    height: 100vh;
+}
+#Interets ul{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 85vw;
+	padding: 1vw;
+	font-size : 1rem !important;
+}
+
+#Interets li{
+	display: grid;
+	grid-template-columns: repeat(24, 1fr);
+	height: 10vh;
+	padding: 1vw;
+	font-size : 1rem !important;
+	min-height: 143px;
+}
+
+#Interets img{
+	height: 10vw;
+	width: 10vw;
+	/*object-fit: cover;*/
+	object-fit: contain;
+}
+
+.Informatique {
+	grid-row: 1/3;
+	grid-column: 1/2;
+}
+.Conception_3D{
+	grid-row: 2/3;
+	grid-column: 1/2;
+}
+.Mathematiques{
+	grid-row: 3/3;
+	grid-column: 1/2;
+}
+
+.Informatique .value{
+	margin-left: 50px;
+	grid-column: 6/24;
+	grid-row : 1/1;
+}
+
+.Informatique img{
+	grid-column: 1/24;
+	grid-row : 1/1;
+}
+
+.Conception_3D .value{
+	margin-left: 50px;
+	grid-column: 12/24;
+	grid-row : 1/1;
+}
+
+.Conception_3D img{
+	grid-column: 7/24;
+	grid-row : 1/1;
+}
+
+.Mathematiques .value{
+	margin-left: 50px;
+	grid-column:18/24;
+	grid-row : 1/1;
+}
+
+.Mathematiques img{
+	grid-column: 13/24;
+	grid-row : 1/1;
+}
+
+.Roller .value{
+	margin-left: 50px;
+	grid-column: 6/24;
+	grid-row : 1/1;
+}
+
+.Roller img{
+	grid-column: 1/24;
+	grid-row : 1/1;
+}
+
+.Ecriture .value{
+	margin-left: 50px;
+	grid-column: 12/24;
+	grid-row : 1/1;
+}
+
+.Ecriture img{
+	grid-column: 7/24;
+	grid-row : 1/1;
+}
+
+.origami .value{
+	margin-left: 50px;
+	grid-column:18/24;
+	grid-row : 1/1;
+}
+
+.origami img{
+	grid-column: 13/24;
+	grid-row : 1/1;
+}
+
+#Interets .value::before {content: "•"; color: black; margin-right: 10px}
+
+@media screen and (max-width: 850px) {
+
+	#Interets{
+		min-height: 1166px;
+    	height: 120vh;
+	}
+
+	#Interets ul{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		width: 85vw;
+		padding: 1vw;
+		font-size : 1rem !important;
+		color: black;
+	}
+
+	#Interets li{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		/*height: 10vw;*/
+		font-size : 1rem !important;
+		text-align: center;
+		margin-top: 20px;
+		height: 27vh;
+    	min-height: 244px;
+
+
+	}
+
+	.Informatique {
+
+		grid-row: 1/3;
+		grid-column: 1/2;
+	}
+	.Conception_3D{
+		grid-row: 2/3;
+		grid-column: 1/2;
+	}
+	.Mathematiques{
+		grid-row: 3/3;
+		grid-column: 1/2;
+	}
+
+	.Informatique .value{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 2/2;
+	}
+
+	.Informatique img{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 1/2;
+	}
+
+	.Conception_3D .value{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 2/2;
+	}
+
+	.Conception_3D img{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 1/2;
+	}
+
+	.Mathematiques .value{
+		margin-left: 0px;
+		grid-column:1/1;
+		grid-row : 2/2;
+	}
+
+	.Mathematiques img{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 1/2;
+	}
+
+	.Roller .value{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 2/2;
+	}
+
+	.Roller img{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 1/2;
+	}
+
+	.Ecriture .value{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 2/2;
+	}
+
+	.Ecriture img{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 1/2;
+	}
+
+	.Origami .value{
+		margin-left: 0px;
+		grid-column:1/1;
+		grid-row : 2/2;
+	}
+
+	.Origami img{
+		grid-column: 1/21;
+		grid-row : 1/2;
+	}
+
+	#Interets img{
+		min-height: 170px;
+		min-width: 170px;
+		margin-left: auto;
+    	margin-right: auto;
+    	width: 30vw;
+    	height: 30vw;
+	}
+
+
+
+	#Interets .value::before {content: ""; color: black; margin-right: 0px}
+}
+

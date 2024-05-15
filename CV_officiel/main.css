@@ -1,0 +1,125 @@
+/************ STYLE Global ***************************/
+
+*{
+	margin: 0px;
+	border: 0;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: max(1vw,16px) ;
+	list-style-type: none;
+
+}
+
+html{
+	min-width: 375px;
+}
+header,footer,#Formation,#Competence,#Qualitys{
+	background-color: #1E3D58;
+	color: white;
+	width: 93.5vw;
+		min-width: 375px;
+}
+
+section,header,footer{
+	width: 93.5vw;
+	padding-left: 5vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	min-width: 375px;
+}
+
+h1,h2,h3
+{
+	font-family: 'Exo 2', sans-serif;
+}
+
+section h2{
+	width: 75%;
+}
+
+h2{
+	font-size: 3.5rem;
+	color: #051D40;
+	font-weight: normal;
+}
+
+h1{
+	background-color: #C97F00;
+	width: 200px;
+  height: 200px;
+  max-height: 30vw;
+  max-width: 30vw;
+	font-size: min(4vw,1.5em);
+	border-radius: 36vh;
+	text-decoration:none;
+	font-weight: normal;
+	margin-left: auto;
+  margin-right: auto;
+  top :  max(-16vw,-101px);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  position: relative;
+}
+
+section{
+	min-height: 100vh;
+	overflow: hidden;
+  position: relative;
+  min-width: 375px;
+
+}
+
+.canvaAngleBas{
+	position: absolute;
+  left: 1%;
+  bottom: 1%;
+  max-width: 200px;
+  max-height: 200px;
+  width: 20vw;
+  height: auto;
+
+}
+
+
+.canvaAngleHaut{
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  max-width: 200px;
+  max-height: 200px;
+  width: 20vw;
+  height: auto;
+}
+
+img{
+	width: 50px;
+	height: 50px;
+}
+
+.flagFR{
+	width: 27px;
+	height: 19px;
+	background-image: -webkit-linear-gradient(left, #002395 0, #002395 33%, #FFF 33%, #FFF 67%, #ED2939 67%, #ED2939 100%);
+	background-image: linear-gradient(90deg, #002395 0, #002395 33%, #FFF 33%, #FFF 67%, #ED2939 67%, #ED2939 100%);
+	border-radius: 4px;
+
+}
+
+.flagEN{
+  width: 27px;
+	height: 19px;
+	background: linear-gradient(180deg, transparent, transparent 40%, #c8102e 40%, #c8102e 60%, transparent 60%, transparent 100%), linear-gradient(90deg, transparent, transparent 45%, #c8102e 45%, #c8102e 55%, transparent 55%, transparent 100%), linear-gradient(180deg, transparent, transparent 30%, #FFF 30%, #FFF 70%, transparent 70%, transparent 100%), linear-gradient(90deg, transparent, transparent 41%, #FFF 41%, #FFF 58%, transparent 58%, transparent 100%), linear-gradient(26.56505deg, transparent, transparent 61%, #c8102e 61%, #c8102e 66%, transparent 66%, transparent 100%) 0 0/50% 100% no-repeat, linear-gradient(-26.56505deg, transparent, transparent 63%, #c8102e 63%, #c8102e 68%, transparent 68%, transparent 100%) 100% 0/50% 100% no-repeat, linear-gradient(26.56505deg, transparent, transparent 65%, #c8102e 65%, #c8102e 71%, transparent 71%, transparent 100%) 100% 9px/50% 100% no-repeat, linear-gradient(-26.56505deg, transparent, transparent 66%, #c8102e 66%, #c8102e 70%, transparent 70%, transparent 100%) 0 9px/50% 100% no-repeat, linear-gradient(27deg, transparent, transparent 42%, #FFF 42%, #FFF 55%, transparent 55%, transparent 100%), linear-gradient(153deg, transparent, transparent 45%, #FFF 45%, #FFF 57%, transparent 57%, transparent 100%), #012169;
+	border-radius: 4px;
+
+
+}
+
+header li {
+	padding-right: 15px;
+  border-right-color: gray;
+  border-right-style: solid;
+  border-right-width: 5px;
+  padding-left: 1vw;
+}

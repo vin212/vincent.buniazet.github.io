@@ -1,0 +1,91 @@
+/************************ Style a propos ********************/
+#APropos{
+	margin-top: max(-28vw,-180px);
+	min-height: 600px;
+	height: 96vh;
+	position: relative;
+}
+
+#APropos p{
+	/*margin-top: -100px;
+	margin-bottom:100px ;*/
+	width: 65vw;
+	margin-top: 4vw;
+	
+}
+
+#APropos h2{
+	width: 	30%;
+}
+
+#APropos ul{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 52vw;
+	grid-gap: 9px;
+	position: absolute;
+	right: -7vw;
+	top: 40%;
+	position: absolute;
+}
+
+@media screen and (max-width: 700px) {
+	#APropos ul{
+		left: 22%;
+		grid-template-columns: repeat(1, 1fr);
+		top: 50%;
+	}
+	#APropos p{
+		width: auto;
+	}
+	#APropos{
+		min-height: 600px;
+	}
+}
+
+#APropos ul h3{
+	text-decoration: underline;
+
+}
+
+.nationality
+{
+	display:flex;
+
+}
+
+@media screen and (min-width: 700px) {
+	
+	
+
+	.born{
+		grid-column: 1 / 2;
+		grid-row : 2/6;
+	}
+
+	.permis{
+		grid-column: 1 / 2;
+		grid-row : 4/6;
+	}
+
+	.language
+	{
+		grid-column: 1 / 2;
+		grid-row: 5/6;
+	}
+
+	.nationality
+	{
+		grid-column: 2 / 2;
+		grid-row : 2/4;
+		display:flex;
+
+	}
+
+	.contact
+	{
+		grid-column: 2 / 2;
+		grid-row : 4/4;
+	}
+}
+

@@ -1,0 +1,173 @@
+/************************ Experience PRO ****************************************/
+#ExperiencesPro{
+	min-height: 500px;
+    height: 255vh;
+}
+
+#ExperiencesPro hr{
+ 	border-top: 3px dashed #d9d9d9;
+ 	padding: 0;
+ 	width: 100vw ;
+	position: absolute;
+	right: 0px;
+}
+
+#ExperiencesPro  ul{
+	list-style-type: disc; 
+}
+
+#ExperiencesPro  ul ul li::before {content: "•"; color: black; margin-right: 10px}
+
+/*@media screen and (max-width: 850px) {
+	#ExperiencesPro ul ul li{
+		width : 55vw;
+	}
+}*/
+
+
+@media screen and (min-width: 850px) {
+
+	#ExperiencesPro ul ul li{
+		width : 55vw;
+	}
+
+	.uneExperienceGauche,.uneExperienceDroite{
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
+		height: 40vh;
+		padding-left: 1vw;
+		padding-right: 1vw;
+		padding-top: 1vh;
+		padding-bottom: 1vh;
+		font-size : 1rem !important;
+		
+	}
+
+	.uneExperienceDroite *{
+		font-size : 1rem !important;
+	}
+
+	.uneExperienceGauche *{
+		font-size : 1rem !important;
+	}
+
+	.uneExperienceGauche img{
+		grid-column: 1 / 10;
+		grid-row : 1/1;
+	}
+
+	.uneExperienceGauche ul{
+		grid-column: 3 / 11;
+		grid-row : 1/1;
+
+	}
+
+	.uneExperienceDroite img{
+		grid-column: 8 / 11;
+		grid-row : 1/1;
+	}
+
+	.uneExperienceDroite ul{
+		grid-column: 1 / 11;
+		grid-row : 1/1;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	#ExperiencesPro{
+		min-height : 2822px;
+		height: 255vh;
+	}
+
+	.uneExperienceGauche,.uneExperienceDroite{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		min-height: 5vh;
+		height: 95vh;
+		/*padding: 1vw;*/
+		font-size : 1rem !important;
+		
+	}
+
+	.uneExperienceDroite *{
+		font-size : 1rem !important;
+	}
+
+	.uneExperienceGauche *{
+		font-size : 1rem !important;
+	}
+
+	#ExperiencesPro img{
+		margin-top: 20px;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+
+	#ExperiencesPro ul ul{
+		padding-inline-start: 10px;
+	}
+}
+
+
+
+#ExperiencesPro img{
+	border-color: #1E3D58;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 2px;
+	/*background-color: #1E3D58;*/
+	object-fit: cover;
+}
+
+.MeropyLogo{
+
+	width: min(26vh,17vw);
+    height: min(17vw,26vh);
+
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.HeliocityLogo{
+	width: min(34vh,17vw);
+    height: min(12vw,26vh);
+
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.TIBALogo{
+	width: min(26vh,17vw);
+    height: min(17vw,26vh);
+
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.CansonLogo{
+
+	width: min(26vh,17vw);
+    height: min(17vw,26vh);
+
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.MSLogo{
+	background-color: #1E3D58;
+
+	width: min(42vh,26vw);
+    height: min(17vw,26vh);
+
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.AILiveSimLogo{
+
+	width: min(26vh,17vw);
+    height: min(17vw,26vh);
+
+    min-width: 100px;
+    min-height: 100px;
+}

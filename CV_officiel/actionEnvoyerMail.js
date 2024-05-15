@@ -1,0 +1,1 @@
+var my_javascript_variable =  document.sessionStorage["form-data"];

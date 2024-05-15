@@ -1,0 +1,253 @@
+/********************************Qualitées ***************************/
+#Qualitys{
+	min-height: 700px;
+    height: 100vh;
+    color: white;
+}
+
+#Qualitys ul{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 85vw;
+	padding: 1vw;
+	font-size : 1rem !important;
+}
+
+#Qualitys li{
+	display: grid;
+	grid-template-columns: repeat(24, 1fr);
+	height: 10vh;
+	padding: 1vw;
+	font-size : 1rem !important;
+	min-height: 143px;
+
+}
+
+#Qualitys img{
+	height: 10vw;
+	width: 10vw;
+	/*object-fit: cover;*/
+}
+
+.problems {
+	grid-row: 1/3;
+	grid-column: 1/2;
+}
+.Logical{
+	grid-row: 2/3;
+	grid-column: 1/2;
+}
+.autonomie{
+	grid-row: 3/3;
+	grid-column: 1/2;
+}
+
+.problems .value{
+	margin-left: 50px;
+	grid-column: 6/24;
+	grid-row : 1/1;
+}
+
+.problems img{
+	grid-column: 1/24;
+	grid-row : 1/1;
+}
+
+.Logical .value{
+	margin-left: 50px;
+	grid-column: 12/24;
+	grid-row : 1/1;
+}
+
+.Logical img{
+	grid-column: 7/24;
+	grid-row : 1/1;
+}
+
+.autonomie .value{
+	margin-left: 50px;
+	grid-column:18/26;
+	grid-row : 1/1;
+}
+
+.autonomie img{
+	grid-column: 13/24;
+	grid-row : 1/1;
+}
+
+.rigoureux .value{
+	margin-left: 50px;
+	grid-column: 6/24;
+	grid-row : 1/1;
+}
+
+.rigoureux img{
+	grid-column: 1/24;
+	grid-row : 1/1;
+}
+
+.adaptation .value{
+	margin-left: 50px;
+	grid-column: 12/24;
+	grid-row : 1/1;
+}
+
+.adaptation img{
+	grid-column: 7/24;
+	grid-row : 1/1;
+}
+
+.challenge .value{
+	margin-left: 50px;
+	grid-column:18/25;
+	grid-row : 1/1;
+}
+
+.challenge img{
+	grid-column: 13/24;
+	grid-row : 1/1;
+	background-color: white;
+}
+
+
+.value::before {content: "•"; color: white; margin-right: 10px}
+
+
+#Qualitys h2{
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+
+
+
+@media screen and (max-width: 850px) {
+
+	#Qualitys{
+		min-height: 1166px;
+    	height: 120vh;
+    	color: white;
+	}
+
+	#Qualitys ul{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		width: 85vw;
+		padding: 1vw;
+		font-size : 1rem !important;
+		color: white;
+	}
+
+	#Qualitys li{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		/*height: 10vw;*/
+		font-size : 1rem !important;
+		text-align: center;
+		margin-top: 20px;
+		height: 27vh;
+    	min-height: 244px;
+    	color: white;
+
+
+	}
+
+	.problems  {
+
+		grid-row: 1/3;
+		grid-column: 1/2;
+	}
+	.Logical{
+		grid-row: 2/3;
+		grid-column: 1/2;
+	}
+	.autonomie{
+		grid-row: 3/3;
+		grid-column: 1/2;
+	}
+
+	.problems .value{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 2/2;
+	}
+
+	.problems img{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 1/2;
+	}
+
+	.Logical .value{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 2/2;
+	}
+
+	.Logical img{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 1/2;
+	}
+
+	.autonomie .value{
+		margin-left: 0px;
+		grid-column:1/1;
+		grid-row : 2/2;
+	}
+
+	.autonomie img{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 1/2;
+	}
+
+	.rigoureux .value{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 2/2;
+	}
+
+	.rigoureux img{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 1/2;
+	}
+
+	.adaptation .value{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 2/2;
+	}
+
+	.adaptation img{
+		margin-left: 0px;
+		grid-column: 1/1;
+		grid-row : 1/2;
+	}
+
+	.challenge .value{
+		margin-left: 0px;
+		grid-column:1/1;
+		grid-row : 2/2;
+	}
+
+	.challenge img{
+		grid-column: 1/21;
+		grid-row : 1/2;
+	}
+
+	#Qualitys img{
+		min-height: 170px;
+		min-width: 170px;
+		margin-left: auto;
+    	margin-right: auto;
+    	width: 30vw;
+    	height: 30vw;
+	}
+
+
+
+	#Qualitys .value::before {content: ""; color: black; margin-right: 0px}
+}

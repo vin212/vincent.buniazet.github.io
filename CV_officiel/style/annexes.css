@@ -1,0 +1,148 @@
+#Annexes{
+	margin-top: max(-28vw,-180px);
+	margin-bottom: max(-28vw,-180px);
+	min-height: 100px;
+	/*height: 100vh;*/
+	position: relative;
+	padding-bottom: 20vh;;
+}
+
+#Annexes .canvaAngleBas{
+
+	bottom: 0%;
+}
+
+#Annexes .canvaAngleHaut{
+
+	top: 0%;
+}
+
+#images{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding-top: 5%;
+}
+
+img{
+	position: relative;
+    width: 100%;
+    height: 100%;
+    background: #1E3D58;;
+
+}
+
+.image{
+	flex-basis: 77%;
+    flex-grow: 1.50550621669627;
+    flex-shrink: 1.50550621669627;
+    max-width: 209.092362px;
+	padding: 9px;
+	text-align: center;
+}
+
+.titleImage
+{
+	text-align: center;
+}
+
+#containerImage
+{
+	position: fixed;
+	background-color: rgba(255,255,255,80%);
+	left: 0px;
+	top: 0px;
+	height: 100vh;
+	width: 100vw;
+	z-index: 22;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#printImg
+{
+	width: 70vw;
+    height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: contain;
+    max-height: 95vw;
+    background: none;
+    position: relative;
+}
+
+#Annexes ul{
+	border-top: 2px grey dashed;
+    border-bottom: 2px grey dashed;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    width: 86vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#Annexes li{
+	padding-right: 50px;
+}
+
+@media screen and (min-width: 100vh) {
+	#printImg
+	{
+		height: 95vh;
+    	width: auto;
+    	object-fit: contain;
+    	max-width: 88vw;
+    	background: none;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+	#Annexes ul
+    {
+    	align-items: left;
+    	justify-content: left;
+    	flex-direction: column;
+    }
+
+	#Annexes li
+    {
+        align-self: flex-start;
+    }
+}
+
+#containerImage i{
+	top: 5px;
+    position: absolute;
+    right: 5px;
+    font-size: 60px;
+    color: gray;
+}
+
+
+#descriptionImg{
+	 position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 1%;
+    width: 98%;
+    height: 11%;
+    font-size: 1rem;
+    background: rgba(255,255,255,15%);
+    color: rgba(0,0,0,20%);
+
+}
+
+#printImg:hover #descriptionImg{
+    background: rgba(255,255,255,80%);
+    color: rgba(0,0,0,100%);
+
+}
+

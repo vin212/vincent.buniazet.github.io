@@ -1,0 +1,181 @@
+
+ /**********************Footer *************************/
+
+#MeContacterFR,#MeContacterGB{
+	background-color: #C97F00;
+	width: 200px;
+  	height: 200px;
+  	max-height: 30vw;
+  	max-width: 30vw;
+	font-size: min(4vw,1.5em);
+	border-radius: max(36vh,30vw);
+	text-decoration:none;
+	font-weight: normal;
+	margin-left: auto;
+	margin-right: auto;
+	bottom :  max(-16vw,-101px);
+	color: white;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	position: relative;
+	z-index: 21;
+}
+
+footer a{
+	color: orange;
+}
+
+footer{
+	height: 25%;
+	 z-index: 20;
+	 min-height: 150px;
+	 position: relative;
+	
+}
+
+footer .flags{
+	right: 5%;
+	bottom: 5%;
+}
+
+#chevron{
+	color: rgb(100,100,100);
+	width: 60px;
+	height: 60px;
+	font-size: 50px;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	background-color: rgba(255,255,255,50%);
+	border-radius: 5px;
+	border-color: rgb(100,100,100);
+	padding-left: 6px;
+	border-width: 2px;
+	border-style: solid;
+	z-index: 30;
+	
+}
+
+#download{
+	color: rgb(100,100,100);
+	width: 60px;
+	height: 60px;
+	font-size: 50px;
+	position: fixed;
+	bottom: 20px;
+	left: 10px;
+	background-color: rgba(255,255,255,50%);
+	border-radius: 5px;
+	border-color: rgb(100,100,100);
+	padding-left: 6px;
+	padding-right: 6px;
+	border-width: 2px;
+	border-style: solid;
+	z-index: 30;
+	font-size: 30px;
+	
+}
+
+#chevron > i{
+	font-size: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+
+
+	#chevron{
+		width: 50px;
+		height: 50px;
+		font-size: 0px;
+	}
+	
+	#chevron > i{
+		font-size: 34px;
+	}
+	
+	#download{
+		width: 50px;
+		height: 50px;
+		font-size: 0px;
+	}
+	
+	#download > i{
+		font-size: 30px;
+	}
+
+}
+
+@media screen and (min-width: 1000px) {
+
+
+	#chevron{
+		width: 60px;
+		height: 60px;
+		font-size: 0px;
+	}
+	
+	#chevron > i{
+		font-size: 30px;
+	}
+	
+	#download{
+		width: 60px;
+		height: 60px;
+		font-size: 0px;
+	}
+	
+	#download > i{
+		font-size: 30px;
+	}
+
+}
+
+#chevron:hover{
+cursor : pointer;
+border-color: black;
+border-width: 3px;
+}
+
+#download:hover{
+cursor : pointer;
+border-color: black;
+border-width: 3px;
+}
+
+footer .flagFR{
+	width: 67px;
+	height: 47px;
+  right: 150px;
+  border-radius: 10px;
+}
+
+footer .flagEN{
+	width: 67px;
+	height: 47px;
+  right: 50px;
+  background: linear-gradient(180deg, transparent, transparent 40%, #c8102e 40%, #c8102e 60%, transparent 60%, transparent 100%), linear-gradient(90deg, transparent, transparent 45%, #c8102e 45%, #c8102e 55%, transparent 55%, transparent 100%), linear-gradient(180deg, transparent, transparent 30%, #FFF 30%, #FFF 70%, transparent 70%, transparent 100%), linear-gradient(90deg, transparent, transparent 41%, #FFF 41%, #FFF 58%, transparent 58%, transparent 100%), linear-gradient(26.56505deg, transparent, transparent 61%, #c8102e 61%, #c8102e 66%, transparent 66%, transparent 100%) 0 0/50% 100% no-repeat, linear-gradient(-26.56505deg, transparent, transparent 63%, #c8102e 63%, #c8102e 68%, transparent 68%, transparent 100%) 100% 0/50% 100% no-repeat, linear-gradient(26.56505deg, transparent, transparent 65%, #c8102e 65%, #c8102e 71%, transparent 71%, transparent 100%) 100% 23px/50% 100% no-repeat, linear-gradient(-26.56505deg, transparent, transparent 66%, #c8102e 66%, #c8102e 70%, transparent 70%, transparent 100%) 0 23px/50% 100% no-repeat, linear-gradient(27deg, transparent, transparent 42%, #FFF 42%, #FFF 55%, transparent 55%, transparent 100%), linear-gradient(153deg, transparent, transparent 45%, #FFF 45%, #FFF 57%, transparent 57%, transparent 100%), #012169;
+  border-radius: 10px;
+  margin-left: 23%;
+}
+
+footer .flagFR:hover{
+	border: black;
+	border-style: solid;
+	border-width: 2px;
+	cursor : pointer;
+}
+
+footer .flagEN:hover{
+	border: black;
+	border-style: solid;
+	border-width: 2px;
+	cursor : pointer;
+}
+
+footer ul{
+	bottom: -9vh;
+    position: relative;
+    left: -6vh;
+}

@@ -1,0 +1,223 @@
+{
+	"c/c++":
+	{
+		"placement":1,
+		"niveau":95,
+		"expertise":"Expert",
+		"projet associer":
+		{
+			"fr":"Développement d'une application pour la création d'un parcours d'un rover (projet professionnel) avec bibliothèque et utilisation d'API. Création d'un jeu vidéo en 2D et sur CMD (projet personnel). Implémentation d'algorithme basique et de structures basique, implémentation d'un émulateur de shell, interpréteur avec analyse syntaxique d'un langage de programmation (Projet scolaire).", 
+			"en":"Developpement application for create rover's route (Professional project) with library and use API. Creation 2D video game in 2D and on CMD (Personal project). Implementation basic algorithe and basic structures, implementation shell emulator, interpreter with syntactic analyse programmation language (School project)."
+		}
+	},
+	"php":
+	{
+		"placement":2,
+		"niveau":90,
+		"expertise":"Expert",
+		"projet associer":
+		{
+			"fr":"Développement de page web pour de la communication avec un robot, pour réaliser une réseau social et un chat en ligne (Projet personnel). Lors de ses projets, php était utiliser pour communiquer avec la base de données mais aussi pour lancer des commandes interne en bash (pour communiquer en i2c entre autres). Développement d'un mini API pour contacter la base de données à partir d'une page en JavaScript (requête asynchrone AJAX)(Projet professionnel).", 
+			"en":"Developpement web page for communicate with robot, realise online social network (Personal project). During its project, php was use for communicate with data base but, also for execute internal commande lines in bash (for communicate in i2c, for example). Developpement little API for contact database with JavaScript page (asynchronous request AJAX)(Professional project)."
+		}
+	},
+	"Python":
+	{
+		"placement":3,
+		"niveau":85,
+		"expertise":"Expert",
+		"projet associer":
+		{
+			"fr":"Utilisation pour des mini projets (Compter, test de probabilité, en projet personnel). Implémentation d'algorithme sur des graph mais aussi d'algorithme plus global (trie, en projet scolaire). Réaliser de mini d'algorithme pour résoudre des problèmes mathématiques proposé (concours de programmation).", 
+			"en":"Use for little project (Count algorithm, probability test, in personnal project). Implemente graph algorithm also global algorithm (sort, school project). Realise little d'algorithm for solve proposed mathématiques issues (programmation competition)."
+		}
+	},
+	"Arduino":
+	{
+		"placement":4,
+		"niveau":85,
+		"expertise":"Avancé",
+		"projet associer":
+		{
+			"fr":"Développement de mini projet avec utilisation de capteur, envoie de socket sur un serveur, implémentation d'une mini interface sur écran OLED avec bibliothèque adafruit (projet personnel).", 
+			"en":"Developpement little project for use sensors, send socket to server, implémentation little interface on OLED screen with library adafruit (Personal project)."
+		}
+	},
+	"CSS":
+	{
+		"placement":5,
+		"niveau":80,
+		"expertise":"Avancé",
+		"projet associer":
+		{
+			"fr":"Utiliser des styliser des pages web comme mon CV, un chat en ligne, un réseau social, une interface de contrôle pour un robot (Projet personnel). Styliser une page web d'agence de voyage (Projet scolaire).", 
+			"en":"User for design web page like my CV, online chat, social network, interface for control robot (Personal project). Design web page for travel agency (School project)."
+		}
+	},
+	"JavaScript":
+	{
+		"placement":6,
+		"niveau":80,
+		"expertise":"Avancé",
+		"projet associer":
+		{
+			"fr":"Utiliser pour dynamiser des pages web, lire des fichiers de type JSON, utilisation d'API (Projet personnel, scolaire, professionnel). Permet de réactualisation automatique de données mise à jour tel que la réception d'un message dans un chat en ligne (projet personnel).", 
+			"en":"User for galvanize web page, read JSON files, user API (Personal project, school project). Enable to automatic refresh update data like receipt message on online chat (Personal project)."
+		}
+	},
+	"Java":
+	{
+		"placement":7,
+		"niveau":70,
+		"expertise":"Avancé",
+		"projet associer":
+		{
+			"fr":"Développement d'un jeu (le Santorini) entièrement avec interface, développement partiel d'un jeu de dame (Projet scolaire).", 
+			"en":"Developpement game (Santorini) full with interface, developpement partial checkers game (School project)."
+		}
+	},
+	"FUZE code":
+	{
+		"placement":8,
+		"niveau":68,
+		"expertise":"Avancé",
+		"projet associer":
+		{
+			"fr":"Développement d'un jeu de démineur pour Nintendo Switch (Projet personnel).", 
+			"en":"Developpement minesweeper game for Nintendo Switch (Personal project)."
+		}
+	},
+	"QML":
+	{
+		"placement":9,
+		"niveau":65,
+		"expertise":"Avancé",
+		"projet associer":
+		{
+			"fr":"Utiliser pour gérer des objets particulier tel qu'une carte avec des pointeur, des droite et des étiquettes (Projet professionnel).", 
+			"en":"User for manage particulare object like map with pointer, straight line and label (Professional project)."
+		}
+	},
+	"SQL":
+	{
+		"placement":10,
+		"niveau":60,
+		"expertise":"Avancé",
+		"projet associer":
+		{
+			"fr":"Création d'une base de données pour gérer un chat en ligne, un mini réseau social, des données collecter par un robots (Projet personnel). Création, gestion et utilisation d'une base de données pour gérer des données relatives à un logiciel de gestion de parcelle, de mission de robot et d'utilisateur (Projet professionnel).", 
+			"en":"Create data base for manage online chat, little social network, data colected with robot (Personal project). Create, management and use data base for manage data relative like manage fields softward, robot mission and users (Professional project). "
+		}
+	},
+	"Unix shell":
+	{
+		"placement":11,
+		"niveau":55,
+		"expertise":"Intermédiaire",
+		"projet associer":
+		{
+			"fr":"Utiliser pour manipuler de fichier, dossier et autre sur un disque (Projet scolaire).", 
+			"en":"Use for handle files, directory and other on disk (School project)."
+		}
+	},
+	"R":
+	{
+		"placement":12,
+		"niveau":50,
+		"expertise":"Intermédiaire",
+		"projet associer":
+		{
+			"fr":"Réalisation de calcul de statistique sur des tableau de données (Projet scolaire).", 
+			"en":"Realise statistic calculate on data table (School project)."
+		}
+	},
+	"ARM/Intel (Assembleur)":
+	{
+		"placement":13,
+		"niveau":45,
+		"expertise":"Intermédiaire",
+		"projet associer":
+		{
+			"fr":"Utilisation de carte avec microprocesseur STM32 et avec microprocesseur Intel8051 avec utilisation d'interruption, des entrées sorties (LEDs), liaison série (Projet scolaire).", 
+			"en":"User microprocessor card STM32 and microprocessor Intel8051 with interupt use, input an output (LEDs), serial link (School project)."
+		}
+	},
+	"ROS":
+	{
+		"placement":14,
+		"niveau":30,
+		"expertise":"Débutant",
+		"projet associer":
+		{
+			"fr":"Tutoriel ROS (1 et 2), developpement sur turtlebot et drône (Projet scolaire), developpement d'API TPC<=>ROS (Projet professionnel)", 
+			"en":"ROS tutoral (1 and 2), developpement on turtlebot and drone (School project), developpement API TCP<=>ROS (Professional project)"
+		}
+	},
+	"Ocaml":
+	{
+		"placement":15,
+		"niveau":20,
+		"expertise":"Débutant",
+		"projet associer":
+		{
+			"fr":"Aborder un langage fonctionnel et la notion de récursivité sans utilisation de variable intermédiaire (Aborder en scolaire).", 
+			"en":"Approach fonctional language and recursivity notion without intermediate variable (Approach in school)."
+		}
+	},
+	"Coq":
+	{
+		"placement":16,
+		"niveau":10,
+		"expertise":"Débutant",
+		"projet associer":
+		{
+			"fr":"Utilisation afin de résoudre ou d'assister la résolution à des problèmes d'algèbre de bool (Aborder en scolaire).", 
+			"en":"Use for solve or help to solve bool algebra issues (Approach in school)."
+		}
+	},
+	"noSQL":
+	{
+		"placement":17,
+		"niveau":5,
+		"expertise":"Débutant",
+		"projet associer":
+		{
+			"fr":"Utiliser afin d'aborder la notion de noSQL avec la manipulation de données stocker dans une base de données (Aborder en scolaire).", 
+			"en":"Use for approach noSQL notion with handling stock data on data base (Approach in school)."
+		}
+	},
+	"Scilab":
+	{
+		"placement":18,
+		"niveau":5,
+		"expertise":"Débutant",
+		"projet associer":
+		{
+			"fr":"Aborder pour résoudre des problème mathématiques simple (Aborder en scolaire).", 
+			"en":"Approach for solve simple mathematiques problems (Approach in school)."
+		}
+	},
+	"Ruby":
+	{
+		"placement":19,
+		"niveau":0,
+		"expertise":"A venir...",
+		"projet associer":
+		{
+			"fr":"Dans le désir d'apprendre ce langage de programmation.", 
+			"en":"Wish to learne programmation langage."
+		}
+	},
+	"C#":
+	{
+		"placement":20,
+		"niveau":0,
+		"expertise":"A venir...",
+		"projet associer":
+		{
+			"fr":"Dans le désir d'apprendre ce langage de programmation.", 
+			"en":"Wish to learne programmation langage."
+		}
+	}
+
+}

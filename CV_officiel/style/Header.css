@@ -1,0 +1,154 @@
+/******************** Style header ********************/
+
+.flags{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	position: absolute;
+    
+}
+
+header .flags{
+	top: 2%;
+    right: 5%;
+}
+header .flagFR{
+	width: 67px;
+	height: 47px;
+	
+  border-radius: 10px;
+}
+
+header .flagEN{
+	width: 67px;
+	height: 47px;
+  background: linear-gradient(180deg, transparent, transparent 40%, #c8102e 40%, #c8102e 60%, transparent 60%, transparent 100%), linear-gradient(90deg, transparent, transparent 45%, #c8102e 45%, #c8102e 55%, transparent 55%, transparent 100%), linear-gradient(180deg, transparent, transparent 30%, #FFF 30%, #FFF 70%, transparent 70%, transparent 100%), linear-gradient(90deg, transparent, transparent 41%, #FFF 41%, #FFF 58%, transparent 58%, transparent 100%), linear-gradient(26.56505deg, transparent, transparent 61%, #c8102e 61%, #c8102e 66%, transparent 66%, transparent 100%) 0 0/50% 100% no-repeat, linear-gradient(-26.56505deg, transparent, transparent 63%, #c8102e 63%, #c8102e 68%, transparent 68%, transparent 100%) 100% 0/50% 100% no-repeat, linear-gradient(26.56505deg, transparent, transparent 65%, #c8102e 65%, #c8102e 71%, transparent 71%, transparent 100%) 100% 23px/50% 100% no-repeat, linear-gradient(-26.56505deg, transparent, transparent 66%, #c8102e 66%, #c8102e 70%, transparent 70%, transparent 100%) 0 23px/50% 100% no-repeat, linear-gradient(27deg, transparent, transparent 42%, #FFF 42%, #FFF 55%, transparent 55%, transparent 100%), linear-gradient(153deg, transparent, transparent 45%, #FFF 45%, #FFF 57%, transparent 57%, transparent 100%), #012169;
+  border-radius: 10px;
+      margin-left: 23%;
+}
+
+header .flagFR:hover{
+	border: black;
+	border-style: solid;
+	border-width: 2px;
+}
+
+header .flagEN:hover{
+	border: black;
+	border-style: solid;
+	border-width: 2px;
+}
+
+header a{
+	font-size: 0.75rem;
+	color: white;
+	text-decoration:none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Barlow', sans-serif;
+	cursor : pointer;
+}
+
+header img{
+	border-radius: 100px;
+	width: 150px;
+	height:150px;
+	transform: scale(1);
+	object-fit: cover;
+	margin-bottom: 10px;  
+}
+
+header h2{
+	color: white;
+	text-decoration:none;
+	font-weight: bold;
+	font-family: 'Barlow', sans-serif;
+	font-size: 1rem ;
+	grid-row: 2 / 2;
+	justify-content: center;
+}
+
+header{
+	display: grid;
+	grid-template-columns: repeat(20, 2fr);
+  text-align: center;
+  padding-bottom: 28px;
+  /*padding-right: 9vw;*/
+      min-height: 205px;
+      position: relative;
+}
+
+header nav{
+	grid-column: 2/18;
+}
+
+
+.menuVisible{
+	grid-column: 2/18;
+}
+
+
+	header ul{
+		display: flex;
+		/*grid-template-columns: repeat(7, 2fr);*/
+		padding-top: 60px;	
+		flex-direction: row;
+
+	}
+
+
+@media screen and (max-width: 1000px) {
+	header ul{
+		display: flex;
+		/*grid-template-columns: repeat(7, 2fr);*/
+		padding-top: 60px;	
+		flex-direction: column;	
+		display: none;
+
+	}
+	header{
+	    height: 25vh;
+	}
+
+	#menuBurgerTel{
+		text-align: center;
+    grid-column: 8/10;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 53px;
+    border-radius: 31px;
+    background: none;
+    color: white;
+    cursor: pointer;
+	}
+
+	#menuBurgerTel i{
+		font-size: 3rem;
+	}
+}
+
+header li{
+padding-right: 15px;
+}
+
+header .menuCacher{
+	    grid-column: 4 / 33;
+    grid-row: 2/3;
+    /*margin-top: -500px;*/
+    z-index: -30;
+    margin-top: -108px;
+}
+
+header .activer{
+	z-index: 1;
+  min-height: 190px;
+  margin-top: -61px;
+	
+}
+
+@media screen and (min-width: 1000px) {
+	#menuBurgerTel{
+		display: none;
+	}
+}
+

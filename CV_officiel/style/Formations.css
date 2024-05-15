@@ -1,0 +1,116 @@
+/*************************** Style formation *******************/
+#Formation h2{
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+#Formation hr{
+ 	border-top: 3px dashed white;
+ 	padding: 0;
+ 	width: 100vw ;
+	position: absolute;
+	right: 0px;
+
+}
+
+#Formation{
+	min-height: 650px;
+}
+
+@media screen and (min-width: 850px) {
+	.uneFormationGauche,.uneFormationDroite{
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
+		height: 20vh;
+		padding: 1vw;
+		min-height: 130px;
+		font-size : 1rem !important;
+		
+	}
+
+	.uneFormationDroite *{
+		font-size : 1rem !important;
+	}
+
+	.uneFormationGauche *{
+		font-size : 1rem !important;
+	}
+
+	.uneFormationGauche img{
+		grid-column: 1 / 10;
+		grid-row : 1/1;
+	}
+
+	.uneFormationGauche ul{
+		grid-column: 3 / 11;
+		grid-row : 1/1;
+
+	}
+
+	.uneFormationDroite img{
+		grid-column: 8 / 11;
+		grid-row : 1/1;
+	}
+
+	.uneFormationDroite ul{
+		grid-column: 1 / 11;
+		grid-row : 1/1;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.uneFormationGauche,.uneFormationDroite{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		height: 296px;
+		/*padding: 1vw;*/
+		font-size : 18px !important;
+		
+	}
+
+	.uneFormationDroite *{
+		font-size : 1rem !important;
+	}
+
+	.uneFormationGauche *{
+		font-size : 1rem !important;
+	}
+
+	#Formation img{
+		margin-top: 20px;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+
+	#Formation ul{
+		padding-inline-start: 0px;
+	}
+}
+
+.CPELogo{
+	width: 175px;
+	height: 74px;
+}
+
+.UGALogo{
+	width: 175px;
+	height: 107px;
+}
+
+.LbaLogo{
+width: 175px;
+height: 85px;
+}
+
+#Formation img{
+	border-radius: 15px;
+	background-color: white;
+	object-fit: cover;
+}
+
+#Formation ul{
+	list-style-type: disc; 
+}
+
+#Formation ul ul li::before {content: "•"; color: white; margin-right: 10px}
+

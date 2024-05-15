@@ -1,0 +1,627 @@
+{
+	"3DConception":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/3Dconception.jpg",
+		"description":
+		{
+			"fr":"Photo d'un objet concu en 3D sur logiciel.",
+			"en":"Object 3D modelisation picture."
+		}
+	},
+
+	"adaptation":
+	{
+		"type":"logo",
+		"categorie":"qualitees",
+		"src":"ressource/img/adaptation.png",
+		"description":
+		{
+			"fr":"Représentation de l'adapation par un logo.",
+			"en":"Representation adaptation with logo."
+		}
+	},
+
+	"algo":
+	{
+		"type":"icone",
+		"categorie":"competence",
+		"src":"ressource/img/algo_icone.png",
+		"description":
+		{
+			"fr":"Représentation de l'algorithme.",
+			"en":"Algorithme representation."
+		}
+	},
+
+	"autonomie":
+	{
+		"type":"icone",
+		"categorie":"qualitees",
+		"src":"ressource/img/autonomie.png",
+		"description":
+		{
+			"fr":"Représentation de l'autonomie par le biet d'un logo. ",
+			"en":"Autonomie representation with logo."
+		}
+	},
+
+	"Aile_d_avion-0":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/Aile_d_avion-0_page-0001.jpg",
+		"description":
+		{
+			"fr":"Plan d'une aile d'avion modéliser en 3D et réalisation des plans.",
+			"en":"Airecraft wing plan, 3D modelisation with creation plans."
+		}
+	},
+
+	"Aile_d_avion-1":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/Aile_d_avion-1_page-0001.jpg",
+		"description":
+		{
+			"fr":"Plan d'une aile d'avion modéliser en 3D et réalisation des plans.",
+			"en":"Airecraft wing, plan 3D modelisation with creation plans."
+		}
+	},
+	
+	"Aile_d_avion-2":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/Aile_d_avion-2_page-0001.jpg",
+		"description":
+		{
+			"fr":"Plan d'une aile d'avion modéliser en 3D et réalisation des plans.",
+			"en":"Airecraft wing, plan 3D modelisation with creation plans."
+		}
+	},
+	
+	"Aile_d_avion-3":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/Aile_d_avion-3_page-0001.jpg",
+		"description":
+		{
+			"fr":"Plan d'un winglet (bout d'aile) réaliser pour la modélisation d'une aile d'avion en 3D et réalisation des plans.",
+			"en":"Airecraft winglet (wing end), plan 3D modelisation with creation plans."
+		}
+	},
+
+	"c++":
+	{
+		"type":"icone",
+		"categorie":"competence",
+		"src":"ressource/img/c++.png",
+		"description":
+		{
+			"fr":"icone de C++.",
+			"en":"C++ icone."
+		}
+	},
+
+	"canson":
+	{
+		"type":"logo",
+		"categorie":"company",
+		"src":"ressource/img/canson.png",
+		"description":
+		{
+			"fr":"Logo de l'entreprise Canson.",
+			"en":"Canson's company logo."
+		}
+	},
+
+	"CPE":
+	{
+		"type":"logo",
+		"categorie":"formation",
+		"src":"ressource/img/CPE.jpg",
+		"description":
+		{
+			"fr":"Logo de l'école CPE Lyon.",
+			"en":"CPE Lyon's logo univeristy."
+		}
+	},
+
+	"challenge":
+	{
+		"type":"icone",
+		"categorie":"qualitees",
+		"src":"ressource/img/challenge.png",
+		"description":
+		{
+			"fr":"Photo représentant le challenge et la compétition.",
+			"en":"Representation challenge and competition with picture."
+		}
+	},
+
+	"écrit":
+	{
+		"type":"photo",
+		"categorie":"loisir",
+		"src":"ressource/img/ecrire.jpg",
+		"description":
+		{
+			"fr":"Photo représentant l'écriture.",
+			"en":"Writing picture representation."
+		}
+	},
+
+	"html":
+	{
+		"type":"logo",
+		"categorie":"competence",
+		"src":"ressource/img/html.png",
+		"description":
+		{
+			"fr":"Logo HTML.",
+			"en":"HTML's logo"
+		}
+	},
+
+	"imprimante 3D":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/imprimante3D.jpg",
+		"description":
+		{
+			"fr":"Une imprimante 3D en cours d'impression.",
+			"en":"3D printer in printing."
+		}
+	},
+
+	"informatique":
+	{
+		"type":"photo",
+		"categorie":"loisir",
+		"src":"ressource/img/informatique.jpg",
+		"description":
+		{
+			"fr":"Un ordinateur avec des lignes de code qui représente l'informatique.",
+			"en":"Computer with code lines for represent computeur science."
+		}
+	},
+
+	"jeu vidéo":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/jeuVideo.png",
+		"description":
+		{
+			"fr":"Un logo avec une manette de jeu vidéo.",
+			"en":"Video game controller logo."
+		}
+	},
+
+	"Lycée Boissy d'Anglas":
+	{
+		"type":"logo",
+		"categorie":"formation",
+		"src":"ressource/img/LBA.jpg",
+		"description":
+		{
+			"fr":"Logo du lycée boissy d'anglas.",
+			"en":"High school Boissy d'Anglas's logo."
+		}
+	},
+
+	"Linkedin":
+	{
+		"type":"logo",
+		"categorie":"autre",
+		"src":"ressource/img/linkedin.png",
+		"description":
+		{
+			"fr":"Logo de linkedin.",
+			"en":"Linkedin's logo."
+		}
+	},
+
+	"Logique":
+	{
+		"type":"icone",
+		"categorie":"qualitees",
+		"src":"ressource/img/logique.jpg",
+		"description":
+		{
+			"fr":"Photo représentant le côté logique et le côté créatif du cerveau.",
+			"en":"Picture represente logical and creative part on brain."
+		}
+	},
+
+	"Lycée Marc Seguin":
+	{
+		"type":"logo",
+		"categorie":"company",
+		"src":"ressource/img/MarcSeguin.png",
+		"description":
+		{
+			"fr":"Logo du lycée Marc Seguin.",
+			"en":"High school Marc Seguin's logo."
+		}
+	},
+
+	"Mathématiques":
+	{
+		"type":"photo",
+		"categorie":"loisir",
+		"src":"ressource/img/math.jpg",
+		"description":
+		{
+			"fr":"Formule mathématique sur un tableau noir représentant les mathématiques.",
+			"en":"Mathématiques formule on black board represent mathématique."
+		}
+	},
+
+	"Meropy":
+	{
+		"type":"logo",
+		"categorie":"company",
+		"src":"ressource/img/meropy.png",
+		"description":
+		{
+			"fr":"Logo de Meropy.",
+			"en":"Meropy's logo."
+		}
+	},
+
+	"Origami":
+	{
+		"type":"photo",
+		"categorie":"loisir",
+		"src":"ressource/img/origami.jpg",
+		"description":
+		{
+			"fr":"Origami d'un oiseau traditionel en papier.",
+			"en":"Origami traditional paper bird."
+		}
+	},
+
+
+
+
+
+	"Arduino Raspberry Pi":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/arduino_rsp.jpg",
+		"description":
+		{
+			"fr":"Photo de mon projet avec un raspberry pi brancher sur un arduino.",
+			"en":"My project picture with raspberry pi connect on arduino."
+		}
+	},
+
+
+	"Chat impression 3D":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/chat_impression3D.jpg",
+		"description":
+		{
+			"fr":"Chat que j'ai imprimer en 3D.",
+			"en":"Cat printing with my 3D printer."
+		}
+	},
+
+
+	"dessin 1":
+	{
+		"type":"photo",
+		"categorie":"loisir",
+		"src":"ressource/img/dessin_1_2.jpg",
+		"description":
+		{
+			"fr":"Un de mes dessins.",
+			"en":"One of my draws."
+		}
+	},
+
+
+	"Imprimante 3D ouverte":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/imprimante_3D_ouverte.jpg",
+		"description":
+		{
+			"fr":"Mon imprimante 3D avec la porte ouverte.",
+			"en":"My 3D printer with opened door."
+		}
+	},
+
+
+	"Imprimante3D fermer":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/imprimante3D_fermer.jpg",
+		"description":
+		{
+			"fr":"Mon imprimante 3D avec la porte fermer.",
+			"en":"My 3D printer with closed door."
+		}
+	},
+
+
+	"Origami":
+	{
+		"type":"photo",
+		"categorie":"loisir",
+		"src":"ressource/img/origami.jpg",
+		"description":
+		{
+			"fr":"Logo de Meropy.",
+			"en":""
+		}
+	},
+
+
+	"Jeu 2D interface":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/jeu2D interface.png",
+		"description":
+		{
+			"fr":"Une interface de mon jeu 2D que j'ai codé en C avec une bibliothèque.",
+			"en":"2D game interface I code in C with library."
+		}
+	},
+
+
+	"Jeu 2D général":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/jeuD2 Présentation général.png",
+		"description":
+		{
+			"fr":"Une vue générale de mon jeu 2D codé en C avec une bibliothèque.",
+			"en":"My 2D game, general view, code in C with library. "
+		}
+	},
+
+
+	"jeud2D CMD":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/jeud2D CMD.png",
+		"description":
+		{
+			"fr":"Une vue générale de mon jeu sur CMD codé en C.",
+			"en":"My CMD game, general view, code in C. "
+		}
+	},
+
+	"Lézard impression 3D":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/lezard_impression_3D.jpg",
+		"description":
+		{
+			"fr":"Un lézard articulé imprimé avec mon imprimante 3D.",
+			"en":"Articulate lizard printed with my 3D printer."
+		}
+	},
+
+	"Mini pièce monté":
+	{
+		"type":"photo",
+		"categorie":"loisir",
+		"src":"ressource/img/Mini_pièce_monté.jpg",
+		"description":
+		{
+			"fr":"Mini pièce monté que j'ai réaliser entièrement.",
+			"en":"Little \"pièce monté\" I realise in full."
+		}
+	},
+
+	"Pack office":
+	{
+		"type":"logo",
+		"categorie":"competence",
+		"src":"ressource/img/packoffice_logo.jpg",
+		"description":
+		{
+			"fr":"Logo du pack office.",
+			"en":"PackOffice's logo."
+		}
+	},
+
+	"Patin à glace personnel":
+	{
+		"type":"photo",
+		"categorie":"loisir",
+		"src":"ressource/img/patin_a_glace.jpg",
+		"description":
+		{
+			"fr":"Mes patins à glace.",
+			"en":"My ice skate."
+		}
+	},
+
+
+	"Patin à glace":
+	{
+		"type":"photo",
+		"categorie":"loisir",
+		"src":"ressource/img/patin_glace.jpg",
+		"description":
+		{
+			"fr":"Patins à glace.",
+			"en":"Ice Skates."
+		}
+	},
+
+	"Photo Vincent":
+	{
+		"type":"icone",
+		"categorie":"autre",
+		"src":"ressource/img/photo__identité_Vincent_BUNIAZET.jpg",
+		"description":
+		{
+			"fr":"Ma photo de profil.",
+			"en":"My profil picture."
+		}
+	},
+
+	"Résolution":
+	{
+		"type":"icone",
+		"categorie":"qualitees",
+		"src":"ressource/img/resolution.jpg",
+		"description":
+		{
+			"fr":"Icone représentant la capacitée à résoudre des problèmes.",
+			"en":"Icone for represent capacity to solve problemes."
+		}
+	},
+
+
+	"Rigueur":
+	{
+		"type":"icone",
+		"categorie":"qualitees",
+		"src":"ressource/img/rigoureux.png",
+		"description":
+		{
+			"fr":"Icone représentant la rigueur.",
+			"en":"Icone for represent rigor."
+		}
+	},
+
+	"Arduino":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/robot.jpg",
+		"description":
+		{
+			"fr":"Photo avec une carte arduino relié à une led." ,
+			"en":"Arduino card connect to led picture."
+		}
+	},
+
+	"Robot Meropy":
+	{
+		"type":"photo",
+		"categorie":"company",
+		"src":"ressource/img/robot_Meropy.jpg",
+		"description":
+		{
+			"fr":"Robot de Meropy, sentiV.",
+			"en":"Meropy's robot, sentiV."
+		}
+	},
+
+	"Robot Perso":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/robot_perso.jpg",
+		"description":
+		{
+			"fr":"Photo de mon robot personnel.",
+			"en":"My personal robot picture."
+		}
+	},
+
+	"Roller":
+	{
+		"type":"photo",
+		"categorie":"loisir",
+		"src":"ressource/img/roller.jpg",
+		"description":
+		{
+			"fr":"Photo de roller.",
+			"en":"Roller picture."
+		}
+	},
+
+	"Shemat Robot":
+	{
+		"type":"photo",
+		"categorie":"projetPerso",
+		"src":"ressource/img/shemat_robot.jpg",
+		"description":
+		{
+			"fr":"Shémat d'un robot que j'ai dessiné au crayon.",
+			"en":"Robot shemat I drawed with pencil."
+		}
+	},
+
+	"SolidWorks":
+	{
+		"type":"logo",
+		"categorie":"competence",
+		"src":"ressource/img/solidworks.jpg",
+		"description":
+		{
+			"fr":"Logo de SolidWorks.",
+			"en":"SolidWorks's logo."
+		}
+	},
+
+	"Surfaceuse":
+	{
+		"type":"photo",
+		"categorie":"loisir",
+		"src":"ressource/img/surfaceuse.jpg",
+		"description":
+		{
+			"fr":"Photo d'une surfaceuse sur la patinoire sur laquelle je pratique.",
+			"en":"Ice resurfacer picture on ice, I practrice on this ice."
+		}
+	},
+
+	"TIBA":
+	{
+		"type":"logo",
+		"categorie":"company",
+		"src":"ressource/img/TIBA.png",
+		"description":
+		{
+			"fr":"Logo de TIBA.",
+			"en":"TIBA's logo."
+		}
+	},
+
+	"Universitée Grenoble Alpes":
+	{
+		"type":"logo",
+		"categorie":"formation",
+		"src":"ressource/img/UGA.png",
+		"description":
+		{
+			"fr":"Logo de l'universitée Grenoble Alpes.",
+			"en":"High school Grenoble Alpes's logo."
+		}
+	},
+
+	"Heliocity":
+	{
+		"type":"logo",
+		"categorie":"company",
+		"src":"ressource/img/heliocitylogo.png",
+		"description":
+		{
+			"fr":"Logo de Heliocity.",
+			"en":"Heliocity's logo."
+		}
+	}
+}
